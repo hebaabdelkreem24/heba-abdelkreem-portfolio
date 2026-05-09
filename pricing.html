@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans | Heba Abdelkreem</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles for pricing page */
+        .pricing-page-header {
+            padding-top: 120px;
+            text-align: center;
+        }
+        .back-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+            padding: 0.7rem 1.8rem;
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            color: var(--accent-primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        .back-home:hover {
+            background: var(--accent-primary);
+            color: white;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="logo">
+            <div class="logo-icon"><i class="fas fa-atom"></i><i class="fas fa-code code-badge"></i></div>
+            <span>HEBA<span class="dot">.</span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html#home" class="nav-link">Home</a></li>
+            <li><a href="index.html#about" class="nav-link">About</a></li>
+            <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+            <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button class="btn-icon" id="themeToggle"><i class="fas fa-moon"></i></button>
+            <button class="btn-icon" id="langToggle"><span class="lang-text">AR</span></button>
+            <a href="index.html#contact" class="btn-primary">Hire Me</a>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+    </div>
+</nav>
+
+<section class="pricing-page-header">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Pricing Plans</span>
+            <h2>Choose Your <span>Plan</span></h2>
+            <div class="section-line"></div>
+            <p class="section-desc">Select the perfect plan for your project needs. All plans include clean code and responsive design.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="pricing-badge">BEST VALUE</div>
+                <h3>Starter</h3>
+                <div class="pricing-price">$499<span>/project</span></div>
+                <ul class="pricing-features">
+                    <li><i class="fas fa-check-circle"></i> 5 Pages Website</li>
+                    <li><i class="fas fa-check-circle"></i> Responsive Design</li>
+                    <li><i class="fas fa-check-circle"></i> Basic SEO Setup</li>
+                    <li><i class="fas fa-check-circle"></i> 1 Week Delivery</li>
+                    <li><i class="fas fa-check-circle"></i> 1 Month Support</li>
+                </ul>
+                <a href="index.html#contact" class="btn-outline">Choose Plan</a>
+            </div>
+            <div class="pricing-card featured">
+                <div class="pricing-badge">MOST POPULAR</div>
+                <h3>Pro</h3>
+                <div class="pricing-price">$1,299<span>/project</span></div>
+                <ul class="pricing-features">
+                    <li><i class="fas fa-check-circle"></i> Full MERN Stack App</li>
+                    <li><i class="fas fa-check-circle"></i> Authentication & Dashboard</li>
+                    <li><i class="fas fa-check-circle"></i> API Integration</li>
+                    <li><i class="fas fa-check-circle"></i> Database Design</li>
+                    <li><i class="fas fa-check-circle"></i> 3 Months Support</li>
+                </ul>
+                <a href="index.html#contact" class="btn-primary">Get Pro</a>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-badge">PREMIUM</div>
+                <h3>Elite</h3>
+                <div class="pricing-price">$2,499<span>/project</span></div>
+                <ul class="pricing-features">
+                    <li><i class="fas fa-check-circle"></i> Complex Web Platform</li>
+                    <li><i class="fas fa-check-circle"></i> Real-time Features</li>
+                    <li><i class="fas fa-check-circle"></i> Performance Optimization</li>
+                    <li><i class="fas fa-check-circle"></i> Custom Animations</li>
+                    <li><i class="fas fa-check-circle"></i> Priority Support 6 Months</li>
+                </ul>
+                <a href="index.html#contact" class="btn-outline">Contact for Elite</a>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="index.html" class="back-home"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo-icon" style="width: 32px; height: 32px;">
+                    <i class="fas fa-atom"></i>
+                    <i class="fas fa-code code-badge" style="font-size: 8px;"></i>
+                </div>
+                <span>HEBA<span class="dot">.</span></span>
+            </div>
+            <p class="footer-copy">&copy; 2024 Heba Abdelkreem. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
