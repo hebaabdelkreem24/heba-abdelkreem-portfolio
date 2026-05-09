@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heba Abdelkreem | Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo">
+            <div class="logo-icon"><i class="fas fa-atom"></i><i class="fas fa-code code-badge"></i></div>
+            <span>HEBA<span class="dot">.</span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link active" data-en="Home" data-ar="الرئيسية">Home</a></li>
+            <li><a href="#about" class="nav-link" data-en="About" data-ar="عني">About</a></li>
+            <li><a href="#education" class="nav-link" data-en="Education" data-ar="التعليم">Education</a></li>
+            <li><a href="#skills" class="nav-link" data-en="Skills" data-ar="المهارات">Skills</a></li>
+            <li><a href="#experience" class="nav-link" data-en="Experience" data-ar="الخبرات">Experience</a></li>
+            <li><a href="#services" class="nav-link" data-en="Services" data-ar="الخدمات">Services</a></li>
+            <li><a href="#projects" class="nav-link" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+            <li><a href="#pricing" class="nav-link" data-en="Plans" data-ar="الخطط">Plans</a></li>
+            <li><a href="#achievements" class="nav-link" data-en="Achievements" data-ar="الإنجازات">Achievements</a></li>
+            <li><a href="#testimonials" class="nav-link" data-en="Testimonials" data-ar="التوصيات">Testimonials</a></li>
+            <li><a href="#contact" class="nav-link" data-en="Contact" data-ar="اتصل بي">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button class="btn-icon" id="themeToggle" title="Toggle Theme"><i class="fas fa-moon"></i></button>
+            <button class="btn-icon" id="langToggle" title="Switch Language"><span class="lang-text">AR</span></button>
+            <a href="#contact" class="btn-primary nav-hire" data-en="Hire Me" data-ar="وظفني">Hire Me</a>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+    </div>
+</nav>
+
+<a href="#" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+<section id="home" class="hero">
+    <div class="hero-bg-effects">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+        <div class="hero-text">
+            <div class="hero-badge"><span class="pulse-dot"></span><span data-en="Available for work" data-ar="متاحة للعمل">Available for work</span></div>
+            <p class="hero-greeting" data-en="Hello, I'm" data-ar="مرحباً، أنا">Hello, I'm</p>
+            <h1 class="hero-title">HEBA <span>ABDELKREEM</span></h1>
+            <h2 class="hero-subtitle" data-en="Full Stack JavaScript Developer" data-ar="مطورة Full Stack JavaScript">Full Stack JavaScript Developer</h2>
+            <p class="hero-code">&lt;MERN Stack Specialist /&gt;</p>
+            <p class="hero-desc" data-en="Developer with a Chemistry background, building scalable MERN applications for chemical & pharmaceutical domains." data-ar="مطورة بخلفية كيميائية، أبني تطبيقات MERN قابلة للتطوير لمجالات الكيمياء والأدوية.">Developer with a Chemistry background, building scalable MERN applications for chemical & pharmaceutical domains.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary" data-en="View My Work" data-ar="أعمالي">View My Work</a>
+                <a href="#contact" class="btn-outline" data-en="Contact Me" data-ar="اتصل بي">Contact Me</a>
+            </div>
+            <div class="hero-social">
+            <a href="https://github.com/hebaabdelkreem24" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/heba-abd-el-hady" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:hebaabdelkreem243@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+201279123431" class="social-icon"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+        <div class="hero-image-wrapper">
+            <div class="hero-image">
+                <div class="image-ring ring-1"></div>
+                <div class="image-ring ring-2"></div>
+                <div class="image-glow"></div>
+                <img src="./images/profile.png" alt="Heba Abdelkreem">
+                <div class="status-badge"><i class="fas fa-bolt"></i><span data-en="Available" data-ar="متاحة">Available</span></div>
+            </div>
+            <div class="floating-card card-exp"><span class="card-num">2+</span><span class="card-label" data-en="Years Exp." data-ar="سنوات خبرة">Years Exp.</span></div>
+            <div class="floating-card card-chem"><i class="fas fa-flask"></i><span data-en="Chemist" data-ar="كيميائية">Chemist</span></div>
+            <div class="floating-card card-dev"><i class="fas fa-code"></i><span data-en="Developer" data-ar="مطورة">Developer</span></div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="About Me" data-ar="عني">About Me</span>
+            <h2 data-en="Who I Am" data-ar="من أنا">Who <span>I Am</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-left">
+                <div class="about-badges">
+                    <span class="about-badge"><i class="fas fa-flask"></i> + <i class="fas fa-code"></i> <span data-en="Chem + Code" data-ar="كيمياء + كود">Chem + Code</span></span>
+                </div>
+                <p data-en="I am a Full Stack JavaScript Developer with a unique edge—my background in Chemistry allows me to understand and build specialized solutions for chemical and pharmaceutical industries." data-ar="أنا مطورة Full Stack JavaScript بميزة فريدة—خلفيتي في الكيمياء تسمح لي بفهم وبناء حلول متخصصة لصناعات الكيمياء والأدوية.">I am a Full Stack JavaScript Developer with a unique edge—my background in Chemistry allows me to understand and build specialized solutions for chemical and pharmaceutical industries.</p>
+                <p data-en="Proficient in React.js, Next.js, Node.js, Express.js, and MongoDB, with strong expertise in RESTful API integration, JWT authentication, and performance optimization." data-ar="أتقن React.js و Next.js و Node.js و Express.js و MongoDB، مع خبرة قوية في تكامل RESTful APIs ومصادقة JWT وتحسين الأداء.">Proficient in React.js, Next.js, Node.js, Express.js, and MongoDB, with strong expertise in RESTful API integration, JWT authentication, and performance optimization.</p>
+                <div class="about-highlights">
+                    <div class="highlight-card"><i class="fas fa-flask"></i><span data-en="Chemistry Background" data-ar="خلفية كيميائية">Chemistry Background</span></div>
+                    <div class="highlight-card"><i class="fas fa-laptop-code"></i><span data-en="MERN Specialist" data-ar="متخصصة MERN">MERN Specialist</span></div>
+                    <div class="highlight-card"><i class="fas fa-rocket"></i><span data-en="Performance Focused" data-ar="تركيز على الأداء">Performance Focused</span></div>
+                    <div class="highlight-card"><i class="fas fa-star"></i><span data-en="Clean Code" data-ar="كود نظيف">Clean Code</span></div>
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="facts-card">
+                    <h3 data-en="Quick Facts" data-ar="حقائق سريعة">Quick Facts</h3>
+                    <div class="fact-row"><span data-en="Location" data-ar="الموقع">Location</span><span>Alexandria, Egypt</span></div>
+                    <div class="fact-row"><span data-en="Experience" data-ar="الخبرة">Experience</span><span>2+ Years</span></div>
+                    <div class="fact-row"><span data-en="Specialization" data-ar="التخصص">Specialization</span><span>MERN Stack</span></div>
+                    <div class="fact-row"><span data-en="Focus" data-ar="التركيز">Focus</span><span data-en="Chem & Pharma" data-ar="كيمياء وأدوية">Chem & Pharma</span></div>
+                    <div class="fact-row"><span data-en="Availability" data-ar="التوفر">Availability</span><span data-en="Open to Work" data-ar="متاحة للعمل">Open to Work</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="Education" data-ar="التعليم">Education</span>
+            <h2 data-en="Academic Background" data-ar="الخلفية الأكاديمية">Academic <span>Background</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Bachelor of Science (B.Sc.)" data-ar="بكالوريوس علوم">Bachelor of Science (B.Sc.)</h3>
+                        <p class="timeline-field" data-en="Chemistry" data-ar="كيمياء">Chemistry</p>
+                        <p class="timeline-inst"><i class="fas fa-university"></i> Alexandria University</p>
+                        <p class="timeline-date"><i class="far fa-calendar"></i> Aug 2019 – Aug 2023</p>
+                        <div class="timeline-tags">
+                            <span><i class="fas fa-award"></i> <span data-en="Strong analytical foundation" data-ar="أساس تحليلي قوي">Strong analytical foundation</span></span>
+                            <span><i class="fas fa-microscope"></i> <span data-en="Research methodology" data-ar="منهجية البحث">Research methodology</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-icon bg-secondary"><i class="fas fa-certificate"></i></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Responsive Web Design" data-ar="تصميم ويب متجاوب">Responsive Web Design</h3>
+                        <p class="timeline-field" data-en="Web Development" data-ar="تطوير الويب">Web Development</p>
+                        <p class="timeline-inst"><i class="fas fa-globe"></i> freeCodeCamp</p>
+                        <p class="timeline-date"><i class="far fa-calendar"></i> 2024</p>
+                        <div class="timeline-tags">
+                            <span><i class="fab fa-html5"></i> HTML5 & CSS3</span>
+                            <span><i class="fas fa-mobile-alt"></i> <span data-en="Responsive Design" data-ar="تصميم متجاوب">Responsive Design</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-icon bg-tertiary"><i class="fas fa-paint-brush"></i></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Web Design Internship" data-ar="تدريب تصميم ويب">Web Design Internship</h3>
+                        <p class="timeline-field" data-en="UI/UX Design" data-ar="تصميم UI/UX">UI/UX Design</p>
+                        <p class="timeline-inst"><i class="fas fa-building"></i> Creative Agency</p>
+                        <p class="timeline-date"><i class="far fa-calendar"></i> 2023</p>
+                        <div class="timeline-tags">
+                            <span><i class="fab fa-figma"></i> Figma</span>
+                            <span><i class="fas fa-palette"></i> <span data-en="UI/UX Principles" data-ar="مبادئ UI/UX">UI/UX Principles</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="Skills" data-ar="المهارات">Skills</span>
+            <h2 data-en="Tech Stack" data-ar="التقنيات">Tech <span>Stack</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-tabs">
+            <button class="skill-tab active" data-category="frontend">
+                <i class="fas fa-desktop"></i>
+                <span data-en="Frontend" data-ar="الواجهة الأمامية">Frontend</span>
+            </button>
+            <button class="skill-tab" data-category="backend">
+                <i class="fas fa-server"></i>
+                <span data-en="Backend" data-ar="الواجهة الخلفية">Backend</span>
+            </button>
+            <button class="skill-tab" data-category="tools">
+                <i class="fas fa-tools"></i>
+                <span data-en="Tools" data-ar="الأدوات">Tools</span>
+            </button>
+            <button class="skill-tab" data-category="soft">
+                <i class="fas fa-brain"></i>
+                <span data-en="Soft Skills" data-ar="المهارات الشخصية">Soft Skills</span>
+            </button>
+        </div>
+        <div class="skills-summary" id="skillsSummary"></div>
+        <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+</section>
+
+<section id="experience" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="Experience" data-ar="الخبرات">Experience</span>
+            <h2 data-en="Professional Journey" data-ar="المسيرة المهنية">Professional <span>Journey</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="experience-list">
+            <div class="exp-card">
+                <div class="exp-logo" style="background: linear-gradient(135deg, );"><img src="./images/Digilians.png" width="50",height="50"  ></div>
+                <div class="exp-content">
+                    <div class="exp-header">
+                        <div>
+                            <h3 data-en="React Developer Trainee" data-ar="متدربة مطورة React">React Developer Trainee</h3>
+                            <p class="exp-company">Digilians · Digital Pioneers Initiative</p>
+                        </div>
+                        <span class="exp-date"><i class="far fa-calendar"></i> Feb 2026 – Present</span>
+                    </div>
+                    <div class="exp-metrics">
+                        <div class="exp-metric"><span class="exp-num">+20%</span><span class="exp-label" data-en="Performance" data-ar="الأداء">Performance</span></div>
+                        <div class="exp-metric"><span class="exp-num">30+</span><span class="exp-label" data-en="Components" data-ar="مكونات">Components</span></div>
+                        <div class="exp-metric"><span class="exp-num">95%</span><span class="exp-label" data-en="Clean Code" data-ar="كود نظيف">Clean Code</span></div>
+                    </div>
+                    <ul class="exp-list">
+                        <li data-en="Next.js SSR/CSR optimization" data-ar="تحسين Next.js SSR/CSR">Next.js SSR/CSR optimization</li>
+                        <li data-en="Built 30+ reusable UI components" data-ar="بناء 30+ مكون UI قابل لإعادة الاستخدام">Built 30+ reusable UI components</li>
+                        <li data-en="Enhanced API responsiveness by 25%" data-ar="تعزيز استجابة API بنسبة 25%">Enhanced API responsiveness by 25%</li>
+                    </ul>
+                    <div class="exp-tech"><span>React.js</span><span>Next.js</span><span>Redux</span><span>Tailwind</span></div>
+                </div>
+            </div>
+            <div class="exp-card">
+                <div class="exp-logo" style="background: linear-gradient(135deg, #F59E0B, #FBBF24);"><img src="./images/FreelanceYard .jpg" width="50" height="50" /></div>
+                <div class="exp-content">
+                    <div class="exp-header">
+                        <div>
+                            <h3 data-en="Freelance Full Stack Developer" data-ar="مطورة Full Stack مستقلة">Freelance Full Stack Developer</h3>
+                            <p class="exp-company">Freelance Yard & Various Clients</p>
+                        </div>
+                        <span class="exp-date"><i class="far fa-calendar"></i> Aug 2024 – Present</span>
+                    </div>
+                    <div class="exp-metrics">
+                        <div class="exp-metric"><span class="exp-num">+25%</span><span class="exp-label" data-en="Engagement" data-ar="التفاعل">Engagement</span></div>
+                        <div class="exp-metric"><span class="exp-num">100%</span><span class="exp-label" data-en="Delivery" data-ar="التسليم">Delivery</span></div>
+                        <div class="exp-metric"><span class="exp-num">99%</span><span class="exp-label" data-en="Uptime" data-ar="التواجد">Uptime</span></div>
+                    </div>
+                    <ul class="exp-list">
+                        <li data-en="Delivered 2 production MERN apps" data-ar="تسليم تطبيقين MERN للإنتاج">Delivered 2 production MERN apps</li>
+                        <li data-en="JWT auth & role-based access" data-ar="مصادقة JWT والوصول القائم على الأدوار">JWT auth & role-based access</li>
+                        <li data-en="Managed 5+ parallel projects" data-ar="إدارة 5+ مشاريع متوازية">Managed 5+ parallel projects</li>
+                    </ul>
+                    <div class="exp-tech"><span>MERN</span><span>JWT</span><span>MongoDB</span><span>React</span></div>
+                </div>
+            </div>
+            <div class="exp-card">
+                <div class="exp-logo" style="background: linear-gradient(135deg,);"><img src="./images/NTI_logo.jpg" width="50" height="50"/></i></div>
+                <div class="exp-content">
+                    <div class="exp-header">
+                        <div>
+                            <h3 data-en="Web Design Intern" data-ar="متدربة تصميم ويب">Web Design Intern</h3>
+                            <p class="exp-company">National Telecommunication Institute (NTI)</p>
+                        </div>
+                        <span class="exp-date"><i class="far fa-calendar"></i> Jul 2023</span>
+                    </div>
+                    <div class="exp-metrics">
+                        <div class="exp-metric"><span class="exp-num">10+</span><span class="exp-label" data-en="Pages" data-ar="صفحات">Pages</span></div>
+                        <div class="exp-metric"><span class="exp-num">15+</span><span class="exp-label" data-en="Mockups" data-ar="نماذج">Mockups</span></div>
+                        <div class="exp-metric"><span class="exp-num">+30%</span><span class="exp-label" data-en="Handoff" data-ar="التسليم">Handoff</span></div>
+                    </div>
+                    <ul class="exp-list">
+                        <li data-en="Designed 10+ responsive web pages" data-ar="تصميم 10+ صفحات ويب متجاوبة">Designed 10+ responsive web pages</li>
+                        <li data-en="Delivered 15+ Figma mockups" data-ar="تسليم 15+ نموذج Figma">Delivered 15+ Figma mockups</li>
+                        <li data-en="Completed all milestones on schedule" data-ar="إكمال جميع المعالم في الموعد">Completed all milestones on schedule</li>
+                    </ul>
+                    <div class="exp-tech"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>Figma</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="Services" data-ar="الخدمات">Services</span>
+            <h2 data-en="What I Offer" data-ar="ما أقدمه">What I <span>Offer</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-code"></i></div>
+                <h3 data-en="Web Development" data-ar="تطوير الويب">Web Development</h3>
+                <p data-en="Full-stack web applications using MERN stack with responsive design and clean architecture." data-ar="تطبيقات ويب كاملة باستخدام MERN مع تصميم متجاوب وهندسة نظيفة.">Full-stack web applications using MERN stack with responsive design and clean architecture.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                <h3 data-en="UI/UX Design" data-ar="تصميم UI/UX">UI/UX Design</h3>
+                <p data-en="Creating intuitive, responsive interfaces using Figma, Tailwind CSS, and modern design principles." data-ar="إنشاء واجهات بديهية ومتجاوبة باستخدام Figma و Tailwind CSS ومبادئ التصميم الحديثة.">Creating intuitive, responsive interfaces using Figma, Tailwind CSS, and modern design principles.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-server"></i></div>
+                <h3 data-en="Backend Development" data-ar="تطوير الواجهة الخلفية">Backend Development</h3>
+                <p data-en="Robust APIs and server-side solutions with Node.js, Express, and MongoDB for scalable apps." data-ar="واجهات برمجة تطبيقات قوية وحلول جانب الخادم مع Node.js و Express و MongoDB.">Robust APIs and server-side solutions with Node.js, Express, and MongoDB for scalable apps.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h3 data-en="Responsive Design" data-ar="تصميم متجاوب">Responsive Design</h3>
+                <p data-en="Mobile-first approach ensuring perfect display on all devices from phones to desktops." data-ar="نهج الجوال أولاً يضمن عرضًا مثاليًا على جميع الأجهزة من الهواتف إلى أجهزة الكمبيوتر.">Mobile-first approach ensuring perfect display on all devices from phones to desktops.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-tachometer-alt"></i></div>
+                <h3 data-en="Performance Optimization" data-ar="تحسين الأداء">Performance Optimization</h3>
+                <p data-en="Speed optimization, lazy loading, and best practices for lightning-fast applications." data-ar="تحسين السرعة والتحميل الكسول وأفضل الممارسات لتطبيقات سريعة البرق.">Speed optimization, lazy loading, and best practices for lightning-fast applications.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-plug"></i></div>
+                <h3 data-en="API Integration" data-ar="تكامل API">API Integration</h3>
+                <p data-en="Seamlessly connecting third-party services and building secure RESTful APIs." data-ar="ربط خدمات الطرف الثالث بسلاسة وبناء RESTful APIs آمنة.">Seamlessly connecting third-party services and building secure RESTful APIs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="Portfolio" data-ar="المحفظة">Portfolio</span>
+            <h2 data-en="Featured Projects" data-ar="المشاريع المميزة">Featured <span>Projects</span></h2>
+            <div class="section-line"></div>
+        </div>
+        
+        <div class="projects-mockup" id="projectsContainer"></div>
+    </div>
+</section>
+
+<!-- Pricing Plans Section -->
+<section id="pricing" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="Pricing Plans" data-ar="خطط الأسعار">Pricing Plans</span>
+            <h2>Flexible <span>Plans</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Starter</h3>
+                <div class="pricing-price">$499</div>
+                <ul class="pricing-features"><li>Basic Website</li><li>Responsive</li></ul>
+                <a href="#contact" class="btn-outline">Choose Plan</a>
+            </div>
+            <div class="pricing-card featured">
+                <h3>Pro</h3>
+                <div class="pricing-price">$1,299</div>
+                <ul class="pricing-features"><li>Full MERN App</li><li>JWT Auth</li></ul>
+                <a href="#contact" class="btn-primary">Get Pro</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Elite</h3>
+                <div class="pricing-price">$2,499</div>
+                <ul class="pricing-features"><li>Complex Platform</li><li>Priority Support</li></ul>
+                <a href="#contact" class="btn-outline">Contact</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="achievements" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="Achievements" data-ar="الإنجازات">Achievements</span>
+            <h2 data-en="Key Metrics" data-ar="المقاييس الرئيسية">Key <span>Metrics</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="achievements-grid">
+            <div class="achievement-card">
+                <i class="fas fa-chart-line"></i>
+                <div class="achievement-num" data-target="20" data-suffix="%">0%</div>
+                <div class="achievement-label" data-en="Performance Boost" data-ar="تعزيز الأداء">Performance Boost</div>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-users"></i>
+                <div class="achievement-num" data-target="25" data-suffix="%">0%</div>
+                <div class="achievement-label" data-en="User Engagement" data-ar="تفاعل المستخدمين">User Engagement</div>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-clock"></i>
+                <div class="achievement-num" data-target="100" data-suffix="%">0%</div>
+                <div class="achievement-label" data-en="On-Time Delivery" data-ar="التسليم في الوقت">On-Time Delivery</div>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-star"></i>
+                <div class="achievement-num" data-target="95" data-suffix="%">0%</div>
+                <div class="achievement-label" data-en="Clean Code" data-ar="كود نظيف">Clean Code</div>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-cubes"></i>
+                <div class="achievement-num" data-target="30" data-suffix="+">0+</div>
+                <div class="achievement-label" data-en="Components Built" data-ar="مكونات مبنية">Components Built</div>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-shield-alt"></i>
+                <div class="achievement-num" data-target="99" data-suffix="%">0%</div>
+                <div class="achievement-label" data-en="App Uptime" data-ar="وقت تشغيل التطبيق">App Uptime</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="Testimonials" data-ar="التوصيات">Testimonials</span>
+            <h2 data-en="What People Say" data-ar="ما يقوله الناس">What People <span>Say</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p data-en="Heba delivered exceptional work on our React project. Her attention to detail and ability to optimize performance by 20% was impressive. Highly recommended!" data-ar="قدمت هبة عملًا استثنائيًا في مشروع React. اهتمامها بالتفاصيل وقدرتها على تحسين الأداء بنسبة 20% كانت مثيرة للإعجاب. موصى بها بشدة!">Heba delivered exceptional work on our React project. Her attention to detail and ability to optimize performance by 20% was impressive. Highly recommended!</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">AH</div>
+                    <div><h4>Ahmed Hassan</h4><span>Project Manager · Digilians</span></div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p data-en="Working with Heba was a great experience. She understood our requirements perfectly and delivered a beautiful e-commerce platform ahead of schedule." data-ar="العمل مع هبة كان تجربة رائعة. فهمت متطلباتنا بشكل مثالي وسلمت منصة تجارة إلكترونية جميلة قبل الموعد المحدد.">Working with Heba was a great experience. She understood our requirements perfectly and delivered a beautiful e-commerce platform ahead of schedule.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar" style="background: linear-gradient(135deg, #F59E0B, #FBBF24);">SM</div>
+                    <div><h4>Sarah Mohamed</h4><span>Client · Freelance</span></div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p data-en="Heba showed remarkable dedication during her internship. Her designs were creative and her code was clean. She has a bright future in tech." data-ar="أظهرت هبة تفانيًا ملحوظًا خلال تدريبها. كانت تصاميمها إبداعية وكودها نظيف. لديها مستقبل مشرق في التقنية.">Heba showed remarkable dedication during her internship. Her designs were creative and her code was clean. She has a bright future in tech.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar" style="background: linear-gradient(135deg, #10B981, #34D399);">KI</div>
+                    <div><h4>Dr. Khaled Ibrahim</h4><span>Supervisor · NTI</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag" data-en="Contact" data-ar="اتصل بي">Contact</span>
+            <h2 data-en="Let's Talk" data-ar="لنتحدث">Let's <span>Talk</span></h2>
+            <div class="section-line"></div>
+            <p class="section-desc" data-en="I'm currently open to new opportunities, freelance projects, and collaborations." data-ar="أنا متاحة حاليًا للفرص الجديدة والمشاريع المستقلة والتعاون.">I'm currently open to new opportunities, freelance projects, and collaborations.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <a href="mailto:hebaabdelkreem243@gmail.com" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div><h4 data-en="Email" data-ar="البريد">Email</h4><p>hebaabdelkreem243@gmail.com</p></div>
+                </a>
+                <a href="tel:+201279123431" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div><h4 data-en="Phone" data-ar="الهاتف">Phone</h4><p>+20 127 912 3431</p></div>
+                </a>
+                <a href="https://linkedin.com/in/heba-abd-el-hady" target="_blank" class="contact-card">
+                    <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                    <div><h4>LinkedIn</h4><p>heba-abd-el-hady</p></div>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div><h4 data-en="Location" data-ar="الموقع">Location</h4><p>Alexandria, Egypt</p></div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" id="contactName" required data-en-placeholder="Your Name" data-ar-placeholder="اسمك">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" id="contactEmail" required data-en-placeholder="Your Email" data-ar-placeholder="بريدك الإلكتروني">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" id="contactSubject" data-en-placeholder="Subject" data-ar-placeholder="الموضوع">
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message" id="contactMessage" required data-en-placeholder="Your Message" data-ar-placeholder="رسالتك"></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-full">
+                    <i class="fas fa-paper-plane"></i>
+                    <span data-en="Send Message" data-ar="إرسال الرسالة">Send Message</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo-icon" style="width: 32px; height: 32px;">
+                    <i class="fas fa-atom"></i>
+                    <i class="fas fa-code code-badge" style="font-size: 8px;"></i>
+                </div>
+                <span>HEBA<span class="dot">.</span></span>
+            </div>
+            <p class="footer-copy">&copy; 2024 Heba Abdelkreem. <span data-en="All rights reserved." data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></p>
+            <div class="footer-social">
+                <a href="https://github.com/hebaabdelkreem24" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/heba-abd-el-hady" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:hebaabdelkreem243@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
